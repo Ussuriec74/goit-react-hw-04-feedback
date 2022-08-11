@@ -12,7 +12,7 @@ zapoznania się z ustawieniami dodatkowych opcji
 1. Upewnij się, że na komputerze zainstalowana jest wersja LTS Node.js.
    [Ściągnij i zainstaluj](https://nodejs.org/en/), jeżeli trzeba.
 2. Sklonuj to repozytorium.
-3. Zmień nazwę folderu z `react-homework-template` na nazwę swojego projektu.
+3. Zmień nazwę folderu z `goit-react-hw-02-feedback` na nazwę swojego projektu.
 4. Utwórz nowe, puste repozytorium na GitHub.
 5. Otwórz projekt w VSCode, włącz terminal i połącz projekt z repozytorium
    GitHub
@@ -25,13 +25,15 @@ zapoznania się z ustawieniami dodatkowych opcji
 
 ## Deployment
 
-Aby skonfigurować wdrożenie projektu, należy wykonać kilka dodatkowych kroków
-w celu skonfigurowania repozytorium. Przejdź do zakładki `Settings` i w podsekcji
+Aby skonfigurować wdrożenie projektu, należy wykonać kilka dodatkowych kroków w
+celu skonfigurowania repozytorium. Przejdź do zakładki `Settings` i w podsekcji
 `Actions` wybierz wybierz pozycję `General`.
 
 ![GitHub actions settings](./assets/actions-config-step-1.png)
 
-Przewiń stronę w dół do ostatniej sekcji, a następnie wybierz opcje tak jak pokazano poniżej i kliknij `Save`. Bez tych ustawień zespół nie będzie miał uprawnień, aby zautomatyzować proces wdrażania.
+Przewiń stronę w dół do ostatniej sekcji, a następnie wybierz opcje tak jak
+pokazano poniżej i kliknij `Save`. Bez tych ustawień zespół nie będzie miał
+uprawnień, aby zautomatyzować proces wdrażania.
 
 ![GitHub actions settings](./assets/actions-config-step-2.png)
 
@@ -73,7 +75,7 @@ Po jakimś czasie, zazwyczaj kilku minut, zdeployowaną stronę będzie można
 zobaczyć pod adresem wskazanym w zredagowanej właściwości `homepage`. Tutaj na
 przykład znajduje się odnośnik do zdeployowanej strony w wersji dla tego
 repozytorium
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
+[https://goitacademy.github.io/goit-react-hw-02-feedback](https://goitacademy.github.io/goit-react-hw-02-feedback).
 
 Jeżeli otwiera się pusta strona, upewnij się, że w zakładce `Console` nie ma
 błędów związanych z nieprawidłowymi ścieżkami do plików CSS i JS projektu
