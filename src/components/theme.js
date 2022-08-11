@@ -3,7 +3,7 @@ export const theme = {
     white: '#ffffff',
     green: 'green',
     red: 'red',
-    bgTableHead: '#51EAFF',
+    bgBtnHover: '#51EAFF',
     bgBody: '#D1D3D4',
     bgStats: '#F1F2F2',
     primaryText: '#000000',
@@ -41,10 +41,12 @@ export const theme = {
   },
   radii: {
     none: '0',
+    small: '4px',
     normal: '8px',
     round: '50%',
   },
   shadows: {
     boxShadow: '10px 10px 8px 2px rgba(0, 0, 0, 0.3)',
+    btnShadow: '4px 4px 4px 1px rgba(0, 0, 0, 0.3)',
   }
 }

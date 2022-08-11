@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const StatItem = styled.button`
   cursor: pointer;
-  min-width: 64px;
-  padding: 8px;
+  min-width: ${p => p.theme.space[6]}px;
+  padding: ${p => p.theme.space[3]}px;
   border: none;
-  border-radius: 4px;
-  box-shadow:4px 4px 4px 1px rgba(0, 0, 0, 0.3);
+  border-radius: ${p => p.theme.radii.small};
+  box-shadow: ${p => p.theme.shadows.btnShadow};
 
   &:hover{
     transform: scale(1.1);
-    background-color: #51EAFF;
+    background-color: ${p => p.theme.colors.bgBtnHover};
   }
 `

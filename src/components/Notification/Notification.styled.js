@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const NotificationMessage = styled.p`
-  margin-left: 64px;
-  font-size: 32px;
-  color: tomato;
+  margin-left: ${p => p.theme.space[6]}px;
+  margin-top: ${p => p.theme.space[6]}px;
+  font-size: ${p => p.theme.fontSizes.xl};
+  color: ${p => p.theme.colors.secondaryText};
 `;

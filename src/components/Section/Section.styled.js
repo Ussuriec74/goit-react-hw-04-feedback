@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
 export const SectionStyle = styled.section`
-  padding: 64px;
-  font-size: 32px;
+  padding: ${p => p.theme.space[6]}px;
+  font-size: ${p => p.theme.fontSizes.xl};
 `;
