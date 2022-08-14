@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Box } from 'components/Box';
 import { StatItem } from 'components/FeedbackOptions/FeedbackOptions.styled';
 
@@ -12,4 +13,9 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
         </li>)}
     </Box>
   )
+};
+
+FeedbackOptions.propTypes = {
+  options: PropTypes.array,
+  onLeaveFeedback: PropTypes.func,
 };
