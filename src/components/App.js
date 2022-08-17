@@ -32,10 +32,12 @@ export class App extends Component {
 
   render() {
     const state = this.state;
+    const keys = Object.keys(state);
+    
     return(
       <Box>
         <Section title="Please leave feedback">
-          <FeedbackOptions options={state} onLeaveFeedback={this.feedbackIncrement} />
+          <FeedbackOptions options={keys} onLeaveFeedback={this.feedbackIncrement} />
         </Section>
         {this.totalFeedback() ? (
           <Section title="Statistics">
